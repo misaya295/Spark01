@@ -44,6 +44,8 @@ object WordCount {
 
 
 
+    sc.stop()
+
 
 
 

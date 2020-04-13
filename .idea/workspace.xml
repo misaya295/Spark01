@@ -1,40 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0ec2f33-6b50-4836-98c5-8e18ddb6247f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00001.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00002.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00003.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark010_Oper9.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark011_Oper10.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark01_RDD.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark02_Oper1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark02_Oper2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark02_Oper3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark04_Oper5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark06_Oper5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark07_Oper6.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark08_Oper7.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark09_Oper8.scala" afterDir="false" />
+    <list default="true" id="b0ec2f33-6b50-4836-98c5-8e18ddb6247f" name="Default Changelist" comment="RDD学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cwk/bigdata/spark/WordCount$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cwk/bigdata/spark/WordCount$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cwk/bigdata/spark/WordCount$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cwk/bigdata/spark/WordCount$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cwk/bigdata/spark/WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cwk/bigdata/spark/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/WordCount.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,8 +177,18 @@
       <workItem from="1585814938743" duration="334000" />
       <workItem from="1585815278005" duration="3000" />
       <workItem from="1585815284626" duration="4258000" />
-      <workItem from="1586415460591" duration="6669000" />
+      <workItem from="1586415460591" duration="6762000" />
+      <workItem from="1586591847749" duration="2592000" />
+      <workItem from="1586746681621" duration="236000" />
     </task>
+    <task id="LOCAL-00001" summary="RDD学习">
+      <created>1586427424694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586427424695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="RDD学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="RDD学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1360" y="217" key="#Scala" timestamp="1586418668497">
@@ -227,11 +208,12 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.822/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585817890881" />
-    <state x="569" y="121" key="CommitChangelistDialog2" timestamp="1586427413934">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state x="-1351" y="128" key="CommitChangelistDialog2" timestamp="1586591880860">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="569" y="121" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1586427413934" />
-    <state width="1878" height="403" key="GridCell.Tab.0.bottom" timestamp="1586427414067">
+    <state x="-1351" y="128" key="CommitChangelistDialog2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591880860" />
+    <state x="569" y="121" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1586427424128" />
+    <state width="1878" height="403" key="GridCell.Tab.0.bottom" timestamp="1586427469995">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="403" key="GridCell.Tab.0.bottom/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586421070682" />
@@ -240,8 +222,8 @@
     <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.23.1440.821/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585812218300" />
     <state width="1878" height="694" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585819472585" />
     <state width="1878" height="694" key="GridCell.Tab.0.bottom/0.23.1440.823/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585822549642" />
-    <state width="1878" height="403" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1586427414067" />
-    <state width="1878" height="403" key="GridCell.Tab.0.center" timestamp="1586427414065">
+    <state width="1878" height="403" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1586427469995" />
+    <state width="1878" height="403" key="GridCell.Tab.0.center" timestamp="1586427469994">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="403" key="GridCell.Tab.0.center/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586421070678" />
@@ -250,8 +232,8 @@
     <state width="1878" height="269" key="GridCell.Tab.0.center/0.23.1440.821/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585812218299" />
     <state width="1878" height="694" key="GridCell.Tab.0.center/0.23.1440.822/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585819472582" />
     <state width="1878" height="694" key="GridCell.Tab.0.center/0.23.1440.823/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585822549641" />
-    <state width="1878" height="403" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1586427414065" />
-    <state width="1878" height="403" key="GridCell.Tab.0.left" timestamp="1586427414065">
+    <state width="1878" height="403" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1586427469994" />
+    <state width="1878" height="403" key="GridCell.Tab.0.left" timestamp="1586427469994">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="403" key="GridCell.Tab.0.left/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586421070674" />
@@ -260,8 +242,8 @@
     <state width="1878" height="269" key="GridCell.Tab.0.left/0.23.1440.821/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585812218298" />
     <state width="1878" height="694" key="GridCell.Tab.0.left/0.23.1440.822/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585819472581" />
     <state width="1878" height="694" key="GridCell.Tab.0.left/0.23.1440.823/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585822549640" />
-    <state width="1878" height="403" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1586427414065" />
-    <state width="1878" height="403" key="GridCell.Tab.0.right" timestamp="1586427414066">
+    <state width="1878" height="403" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1586427469994" />
+    <state width="1878" height="403" key="GridCell.Tab.0.right" timestamp="1586427469994">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="403" key="GridCell.Tab.0.right/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586421070679" />
@@ -270,11 +252,15 @@
     <state width="1878" height="269" key="GridCell.Tab.0.right/0.23.1440.821/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585812218299" />
     <state width="1878" height="694" key="GridCell.Tab.0.right/0.23.1440.822/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585819472584" />
     <state width="1878" height="694" key="GridCell.Tab.0.right/0.23.1440.823/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585822549642" />
-    <state width="1878" height="403" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1586427414066" />
+    <state width="1878" height="403" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1586427469994" />
     <state x="-1472" y="133" key="SettingsEditor" timestamp="1585730306778">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1472" y="133" key="SettingsEditor/0.23.1440.821/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585730306778" />
+    <state x="560" y="258" key="Vcs.Push.Dialog.v2" timestamp="1586427434541">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state x="560" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1586427434541" />
     <state x="-1133" y="287" width="637" height="472" key="find.popup" timestamp="1585804256745">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
