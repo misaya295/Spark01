@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0ec2f33-6b50-4836-98c5-8e18ddb6247f" name="Default Changelist" comment="RDD学习">
+    <list default="true" id="b0ec2f33-6b50-4836-98c5-8e18ddb6247f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/Spark013_Oper12.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/cwk/bigdata/spark/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/.part-00001.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/.part-00001.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/.part-00002.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/.part-00002.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-00001" beforeDir="false" afterPath="$PROJECT_DIR$/output/part-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-00002" beforeDir="false" afterPath="$PROJECT_DIR$/output/part-00002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-00003" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +80,7 @@
       <recent name="com.cwk.bigdata.spark" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spark011_Oper10">
+  <component name="RunManager" selected="Application.Spark013_Oper12">
     <configuration name="Spark010_Oper9" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.cwk.bigdata.spark.Spark010_Oper9" />
       <module name="Spark01" />
@@ -99,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark07_Oper6" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.cwk.bigdata.spark.Spark07_Oper6" />
+    <configuration name="Spark013_Oper12" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.cwk.bigdata.spark.Spark013_Oper12" />
       <module name="Spark01" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark013_Oper12" />
         <item itemvalue="Application.Spark011_Oper10" />
         <item itemvalue="Application.Spark010_Oper9" />
         <item itemvalue="Application.Spark09_Oper8" />
         <item itemvalue="Application.Spark08_Oper7" />
-        <item itemvalue="Application.Spark07_Oper6" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +187,8 @@
       <workItem from="1585815284626" duration="4258000" />
       <workItem from="1586415460591" duration="6762000" />
       <workItem from="1586591847749" duration="2592000" />
-      <workItem from="1586746681621" duration="236000" />
+      <workItem from="1586746681621" duration="295000" />
+      <workItem from="1586769711079" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="RDD学习">
       <created>1586427424694</created>
@@ -188,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586427424695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day07">
+      <created>1586746944462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586746944462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="RDD学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD学习" />
+    <MESSAGE value="day07" />
+    <option name="LAST_COMMIT_MESSAGE" value="day07" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1360" y="217" key="#Scala" timestamp="1586418668497">
@@ -208,10 +225,19 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.822/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585817890881" />
-    <state x="-1351" y="128" key="CommitChangelistDialog2" timestamp="1586591880860">
+    <state x="-1224" y="362" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586770209979">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1224" y="362" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586770209979" />
+    <state x="-1147" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1586769950933">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1147" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586769950933" />
+    <state x="-1351" y="128" key="CommitChangelistDialog2" timestamp="1586746943394">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1351" y="128" key="CommitChangelistDialog2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591880860" />
+    <state x="-1351" y="128" key="CommitChangelistDialog2/0.23.1280.724/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586746943394" />
     <state x="569" y="121" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1586427424128" />
     <state width="1878" height="403" key="GridCell.Tab.0.bottom" timestamp="1586427469995">
       <screen x="0" y="23" width="1920" height="991" />
@@ -257,10 +283,15 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1472" y="133" key="SettingsEditor/0.23.1440.821/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585730306778" />
-    <state x="560" y="258" key="Vcs.Push.Dialog.v2" timestamp="1586427434541">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state x="-1360" y="274" key="Vcs.Push.Dialog.v2" timestamp="1586746953993">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-1360" y="274" key="Vcs.Push.Dialog.v2/0.23.1280.724/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586746953993" />
     <state x="560" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1586427434541" />
+    <state x="-1157" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586793890127">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1157" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586793890127" />
     <state x="-1133" y="287" width="637" height="472" key="find.popup" timestamp="1585804256745">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
